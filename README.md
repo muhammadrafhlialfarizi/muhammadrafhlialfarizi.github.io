@@ -1,6 +1,6 @@
 **Profil Muhammad Rafhli Alfarizi**
 
-Perkenalkan nama saya Muhammad Rafhli Alfarizi, saat ini saya sedang berkuliah di Universital Linggabuana PGRI Sukabumi dengan mengambil prodi Informatika
+Perkenalkan nama saya Muhammad Rafhli Alfarizi, saat ini saya sedang berkuliah di Universital Linggabuana PGRI Sukabumi dengan mengambil prodi Informatika, saya mulai berkuliah pada 2023 bulan November
 
 Dalam dunia TI, saya memiliki minat dalam bidang Web Developer dan Cyber Security, untuk saat inin saya sedang mendalami bidang Web Developer
 
