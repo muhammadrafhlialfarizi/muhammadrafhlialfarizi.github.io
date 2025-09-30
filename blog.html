@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="light-theme">
+<!-- SIDEBAR -->
+<aside class="sidebar">
+<div class="logo">
+  <a href="index.html">MyPortfolio</a>
+  <div class="profile-pic">
+    <img src="assets/img/profile.jpg" alt="Foto Saya">
+  </div>
+</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="blog.html" class="active">Jurnal & Artikel</a></li>
+    <li><a href="cv.html">CV</a></li>
+  </ul>
+
+  <!-- Theme -->
+  <div class="theme-box">
+    <select id="theme-select">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+
+  <!-- Social -->
+  <div class="social-icons">
+    <a href="#" class="social-link" data-type="github"><i class="fab fa-github"></i></a>
+    <a href="#" class="social-link" data-type="linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="#" class="social-link" data-type="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-link" data-type="whatsapp"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="content">
+  <!-- MAIN CONTENT -->
+  <main class="blog-section">
+    <h1>Artikel & Jurnal</h1>
+    <p>Kumpulan tulisan saya, baik berupa jurnal maupun artikel.</p>
+
+    <!-- JURNAL -->
+    <section class="blog-list">
+      <h2>Jurnal Terbaru</h2>
+      <div class="blog-grid">
+        <!-- contoh jurnal -->
+        <div class="blog-card">
+          <img src="assets/img/jurnal1.png" alt="Jurnal 1" />
+          <div class="blog-info">
+            <h3><a href="jurnal/nama_jurnal1.html">Eksperimen Klasifikasi Bentuk Segitiga Menggunakan Algoritma Random Forest dan Support Vector Machine</a></h3>
+            <p>        Jurnal ini membandingkan algoritma <strong>Random Forest</strong> dan <strong>Support Vector Machine (SVM)</strong> untuk klasifikasi bentuk segitiga berdasarkan panjang sisi.</p>
+            <span class="date">20 Sept 2025</span>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="assets/img/jurnal2.jpg" alt="Jurnal 2" />
+          <div class="blog-info">
+            <h3><a href="jurnal/nama_jurnal2.html">Judul Jurnal Kedua</a></h3>
+            <p>Ringkasan singkat jurnal yang ditulis...</p>
+            <span class="date">15 Sept 2025</span>
+          </div>
+        </div>
+        <!-- tambahkan jurnal lain sesuai kebutuhan -->
+      </div>
+    </section>
+
+    <!-- ARTIKEL -->
+    <section class="blog-list">
+      <h2>Artikel Terbaru</h2>
+      <div class="blog-grid">
+        <!-- contoh artikel -->
+        <div class="blog-card">
+          <img src="assets/img/artikel1.jpg" alt="Artikel 1" />
+          <div class="blog-info">
+            <h3><a href="artikel/nama_artikel1.html">Cyber Security: Pengertian, Jenis, dan Ancamannya</a></h3>
+            <p>Pentingnya cyber security menjadi hal yang dipahami untuk melindungi sistem, jaringan, dan program dari serangan digital</p>
+            <span class="date">10 Sept 2025</span>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="assets/img/artikel2.jpg" alt="Artikel 2" />
+          <div class="blog-info">
+            <h3><a href="artikel/nama_artikel2.html">Judul Artikel Kedua</a></h3>
+            <p>Ringkasan singkat artikel yang ditulis...</p>
+            <span class="date">5 Sept 2025</span>
+          </div>
+        </div>
+        <!-- tambahkan artikel lain sesuai kebutuhan -->
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="social-icons">
+      <a href="#" class="social-link" data-type="github"><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link" data-type="linkedin"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="social-link" data-type="instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-link" data-type="whatsapp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 Portofolio Saya</p>
+  </footer>
+</main>
+</body>
+</html>

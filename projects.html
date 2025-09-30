@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <!-- FontAwesome untuk icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="light-theme">
+  <!-- SIDEBAR -->
+<aside class="sidebar">
+<div class="logo">
+  <a href="index.html">MyPortfolio</a>
+  <div class="profile-pic">
+    <img src="assets/img/profile.jpg" alt="Foto Saya">
+  </div>
+</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="blog.html">Jurnal & Artikel</a></li>
+    <li><a href="cv.html">CV</a></li>
+  </ul>
+
+  <!-- Theme -->
+  <div class="theme-box">
+    <select id="theme-select">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+
+  <!-- Social -->
+  <div class="social-icons">
+    <a href="#" class="social-link" data-type="github"><i class="fab fa-github"></i></a>
+    <a href="#" class="social-link" data-type="linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="#" class="social-link" data-type="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-link" data-type="whatsapp"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="content">
+
+  <!-- MAIN CONTENT -->
+  <main class="projects-section">
+    <h1>Projects</h1>
+    <p>Berikut adalah beberapa proyek yang pernah saya kerjakan.</p>
+
+    <!-- Filter Tabs -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-type="all">All</button>
+      <button class="filter-btn" data-type="web">Web Development</button>
+      <button class="filter-btn" data-type="mobile">Mobile App</button>
+      <!-- Tambah jenis project lain tinggal buat button baru di sini -->
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+      <!-- Example Project Card -->
+      <div class="project-card" data-type="web">
+        <img src="assets/img/project1.jpg" alt="Project 1" />
+        <div class="project-info">
+          <h3>Website Portfolio</h3>
+          <p>Desain portofolio modern menggunakan HTML, CSS, dan JS.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-type="mobile">
+        <img src="assets/img/project2.jpg" alt="Project 2" />
+        <div class="project-info">
+          <h3>Mobile App</h3>
+          <p>Aplikasi mobile sederhana untuk manajemen tugas.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Tambah project baru dengan copy block di atas -->
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Portofolio Saya</p>
+  </footer>
+</main>
+
+</body>
+</html>

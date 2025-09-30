@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jurnal: Klasifikasi Segitiga</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+  <!-- Font Awesome untuk icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+<!-- SIDEBAR -->
+<aside class="sidebar">
+<div class="logo">
+  <a href="../index.html">MyPortfolio</a>
+  <div class="profile-pic">
+    <img src="../assets/img/profile.jpg" alt="Foto Saya">
+  </div>
+</div>
+
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../projects.html">Projects</a></li>
+    <li><a href="../blog.html">Jurnal & Artikel</a></li>
+    <li><a href="../cv.html">CV</a></li>
+  </ul>
+
+  <!-- Theme -->
+  <div class="theme-box">
+    <select id="theme-select">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+
+  <!-- Social -->
+  <div class="social-icons">
+    <a href="#" class="social-link" data-type="github"><i class="fab fa-github"></i></a>
+    <a href="#" class="social-link" data-type="linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="#" class="social-link" data-type="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-link" data-type="whatsapp"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="content">
+  <header>
+    <h1>
+      <a href="https://www.example.com/link-jurnal-asli" target="_blank">
+        Eksperimen Klasifikasi Bentuk Segitiga Menggunakan Algoritma Random Forest dan Support Vector Machine
+      </a>
+    </h1>
+  </header>
+
+  <main>
+    <!-- View PDF langsung -->
+    <section class="pdf-viewer">
+      <iframe src="../assets/pdf/jurnal1.pdf" width="100%" height="600px"></iframe>
+    </section>
+
+    <!-- Subtopik: Abstrak -->
+    <section class="abstrak">
+      <h2>Abstrak</h2>
+      <p>
+        Klasifikasi segitiga secara tradisional dilakukan berdasarkan perbandingan panjang sisi. Namun, pendekatan tersebut kurang adaptif terhadap variasi bentuk dan ambiguitas data. Penelitian ini mengeksplorasi penggunaan machine learning untuk mengklasifikasikan jenis segitiga—sama sisi, sama kaki, dan sembarang—berdasarkan panjang ketiga sisinya. Dua algoritma diterapkan: Random Forest dan Support Vector Machine (SVM). Dataset sintetik sebanyak 300 sampel digunakan, dengan proses validasi silang lima lipatan untuk pelatihan dan pengujian. Hasil menunjukkan bahwa kedua algoritma mampu menghasilkan akurasi tinggi, dengan Random Forest memberikan performa lebih stabil. Hasil menunjukkan bahwa pendekatan machine learning dapat menggeneralisasi variasi bentuk segitiga dan menangani ambiguitas data lebih baik dibanding pendekatan berbasis aturan.
+      </p>
+    </section>
+
+    <!-- Subtopik: Rangkuman -->
+    <section class="rangkuman">
+      <h2>Rangkuman</h2>
+      <p>
+        Jurnal ini membandingkan algoritma <strong>Random Forest</strong> dan <strong>Support Vector Machine (SVM)</strong> untuk klasifikasi bentuk segitiga berdasarkan panjang sisi. Dataset sintetik sebanyak 300 sampel digunakan, dibagi menjadi segitiga sama sisi, sama kaki, dan sembarang. Hasil menunjukkan kedua algoritma memberikan akurasi tinggi, dengan SVM mencapai akurasi tertinggi (±72,5%) sementara Random Forest lebih stabil dan mudah diinterpretasikan. Pendekatan machine learning terbukti lebih adaptif dibanding metode konvensional dalam menangani variasi bentuk dan data ambigu.
+      </p>
+    </section>
+
+    <!-- Subtopik: Isi Jurnal (2 paragraf pertama) -->
+    <section class="isi-jurnal">
+      <h2>Isi Jurnal</h2>
+      <p>
+        Segitiga merupakan bentuk geometri dasar yang banyak digunakan dalam matematika, teknik, dan komputasi visual. Klasifikasi segitiga berdasarkan panjang sisi—sama sisi, sama kaki, dan sembarang—merupakan konsep penting, baik secara teoritis maupun praktis. Umumnya, klasifikasi dilakukan secara konvensional menggunakan aturan eksplisit yang membandingkan panjang sisi. Namun, pendekatan ini kurang efektif dalam menghadapi data yang mengandung noise atau ambiguitas.
+      </p>
+      <p>
+        Machine learning (ML) menawarkan pendekatan alternatif yang lebih fleksibel, karena mampu menggeneralisasi pola dari data dan menangani variasi bentuk secara lebih adaptif. Algoritma seperti Random Forest dan Support Vector Machine (SVM) telah terbukti efektif dalam berbagai tugas klasifikasi, meskipun penerapannya dalam klasifikasi bentuk geometri sederhana seperti segitiga masih jarang dibahas.
+      </p>
+    </section>
+  </main>
+</main>
+
+  <footer>
+    <p>&copy; 2025 Portofolio</p>
+  </footer>
+</body>
+</html>
